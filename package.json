@@ -1,0 +1,14 @@
+{
+  "name": "@babahironobu/amplimono",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "backend": "yarn workspace @babahironobu/amplimono-backend",
+    "frontend": "yarn workspace @babahironobu/amplimono-frontend"
+  },
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
+}
